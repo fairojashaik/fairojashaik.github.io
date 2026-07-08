@@ -15,18 +15,20 @@ header {
     margin-bottom: 80px;
 }
 
+/* To make your main name smaller */
 header .logo a {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem; /* Decreased from 1.2rem+ */
     color: #000;
     text-decoration: none;
 }
 
+/* To make the navigation links (Projects, Experience) smaller */
 nav a {
     margin-left: 20px;
     color: #666;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.85rem; /* Decreased from 1rem */
 }
 
 nav a:hover, nav a.active {
@@ -37,20 +39,24 @@ nav a:hover, nav a.active {
     max-width: 600px;
 }
 
+/* To make your bio text smaller */
 .bio {
-    font-size: 1.05rem;
+    font-size: 0.95rem; /* Decreased from 1.15rem */
     margin-bottom: 40px;
+    line-height: 1.6;   
 }
 
 a {
     color: #111;
 }
 
+/* To make your social media links (LinkedIn, GitHub) smaller */
 .links a {
     display: block;
     margin-top: 10px;
     color: #666;
     text-decoration: none;
+    font-size: 0.9rem; /* Added to decrease link text size */
 }
 
 .links a:hover {
