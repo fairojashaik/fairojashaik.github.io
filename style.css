@@ -1,67 +1,74 @@
+/* Base settings matching the clean, Apple-system font stack */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #111;
-    background-color: #fff;
-    max-width: 800px;
+    color: #111111;              /* Off-black body text */
+    background-color: #ffffff;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px 20px;
-    line-height: 1.6;
+    padding: 100px 40px;         /* Generous whitespace spacing */
+    line-height: 1.5;            /* Tight, clean layout spacing */
+    -webkit-font-smoothing: antialiased;
 }
-
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
+    align-items: baseline;
+    margin-bottom: 70px;         /* Large gap below name */
+}
+/* "Aman Sanger" Name Style */
+header .logo a {
+    font-weight: 700;            /* Bold profile name */
+    font-size: 1.5rem;           /* Exact standout heading size */
+    color: #000000;              /* Pure pitch black */
+    text-decoration: none;
+    letter-spacing: -0.02em;
 }
 
-/* 1. Main Logo / Your Name */
-header .logo a {
-    font-weight: 700;
-    font-size: 1.5rem; /* Reverts to a nice, prominent heading size */
-    color: #000;
-    text-decoration: none;
-
-/* 2. Top Right Navigation (Thoughts, Books) */
+/* Top Right Navigation (Thoughts, Books) */
 nav a {
-    margin-left: 20px;
-    color: #666;
+    margin-left: 28px;
+    color: #707070;              /* Muted medium gray */
     text-decoration: none;
-    font-size: 0.95rem; /* Crisp and perfectly readable */
+    font-size: 0.95rem;          /* Slipped down slightly below standard size */
+    font-weight: 400;
 }
 
 nav a:hover, nav a.active {
-    color: #000;
+    color: #000000;              /* Darkens to black on hover */
 }
 
 .content {
-    max-width: 600px;
+    max-width: 650px;            /* Forces ideal reading line breaks */
 }
 
-/* 3. Your Bio Text */
+/* Bio Text Block */
 .bio {
-    font-size:0.50rem; /* Clean and balanced standard reading size */
-    margin-bottom: 40px;
-    line-height: 1.6;   
+    font-size: 1.15rem;          /* Clean, legible reader size */
+    color: #222222;              /* Muted dark charcoal gray */
+    margin-bottom: 50px;
+    font-weight: 400;
 }
 
-a {
-    color: #111;
+/* Inline links within bio text (e.g. Cursor link) */
+.bio a {
+    color: #111111;
+    text-decoration: underline;  /* Keeps the classic text underline styling */
+    text-underline-offset: 3px;
 }
 
-/* 4. Social Media Links at the bottom */
+/* Social Media Links (Twitter, Github) at the bottom left */
 .links a {
     display: block;
     margin-top: 12px;
-    color: #666;
+    color: #707070;              /* Matches the exact gray text from the navigation links */
     text-decoration: none;
-    font-size: 0.95rem; /* Fixed the microscopic sizing */
+    font-size: 0.95rem;
 }
 
 .links a:hover {
+    color: #000000;
     text-decoration: underline;
 }
-
 h2 {
     font-size: 1.1rem;
     margin-top: 40px;
