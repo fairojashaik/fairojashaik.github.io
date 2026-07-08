@@ -18,17 +18,17 @@ header {
 /* To make your main name smaller */
 header .logo a {
     font-weight: bold;
-    font-size: 1.1rem; /* Decreased from 1.2rem+ */
+    font-size: 1.0rem; /* Decreased from 1.2rem+ */
     color: #000;
     text-decoration: none;
 }
 
-/* To make the navigation links (Projects, Experience) smaller */
+
 nav a {
     margin-left: 20px;
     color: #666;
     text-decoration: none;
-    font-size: 0.85rem; /* Decreased from 1rem */
+    font-size: 0.35rem; /* Decreased from 1rem */
 }
 
 nav a:hover, nav a.active {
@@ -41,7 +41,7 @@ nav a:hover, nav a.active {
 
 /* To make your bio text smaller */
 .bio {
-    font-size: 0.95rem; /* Decreased from 1.15rem */
+    font-size: 0.25rem; /* Decreased from 1.15rem */
     margin-bottom: 40px;
     line-height: 1.6;   
 }
