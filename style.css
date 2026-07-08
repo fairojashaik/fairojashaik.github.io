@@ -41,7 +41,7 @@ nav a:hover, nav a.active {
 
 /* To make your bio text smaller */
 .bio {
-    font-size: 0.25rem; /* Decreased from 1.15rem */
+    font-size: 1.10rem; /* Decreased from 1.15rem */
     margin-bottom: 40px;
     line-height: 1.6;   
 }
@@ -56,7 +56,7 @@ a {
     margin-top: 10px;
     color: #666;
     text-decoration: none;
-    font-size: 0.9rem; /* Added to decrease link text size */
+    font-size: 0.15rem; /* Added to decrease link text size */
 }
 
 .links a:hover {
